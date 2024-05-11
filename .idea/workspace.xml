@@ -7,9 +7,15 @@
     <list default="true" id="84cf4f6d-b7a8-4d6e-8f04-1320f436cda2" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/.idea/gsk_dev.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gsk_dev.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+>>>>>>> e23ba821bf04e08f435961387de907eacb67604f
       <change afterPath="$PROJECT_DIR$/app/controllers/home_controller.go" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/routes.go" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/server.go" afterDir="false" />
@@ -130,7 +136,10 @@
       <change afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/run docker" afterDir="false" />
+=======
+>>>>>>> e23ba821bf04e08f435961387de907eacb67604f
       <change afterPath="$PROJECT_DIR$/templates/analytics.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/templates/apps-calendar.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/templates/apps-chat.html" afterDir="false" />
@@ -155,6 +164,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
   <component name="GOROOT" url="file://C:/Program Files/Go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -165,6 +175,14 @@
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
+=======
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+>>>>>>> e23ba821bf04e08f435961387de907eacb67604f
   <component name="ProjectId" id="2gHmuYkbiQAUqYfvNfYTqCOHni3" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -172,11 +190,17 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+<<<<<<< HEAD
     "Go Build.go build github.com/jajang57/gsk_dev.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
     "RunOnceActivity.go.modules.automatic.dependencies.download": "true",
+=======
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+>>>>>>> e23ba821bf04e08f435961387de907eacb67604f
     "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
     "git-widget-placeholder": "main",
     "go.import.settings.migrated": "true",
@@ -184,6 +208,7 @@
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+<<<<<<< HEAD
     "settings.editor.selected.configurable": "settings.sync"
   }
 }]]></component>
@@ -203,6 +228,11 @@
       </list>
     </recent_temporary>
   </component>
+=======
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+>>>>>>> e23ba821bf04e08f435961387de907eacb67604f
   <component name="SharedIndexes">
     <attachedChunks>
       <set>

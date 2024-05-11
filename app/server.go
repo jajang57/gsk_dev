@@ -6,6 +6,11 @@ import (
 	"net/http"
 	"os"
 
+<<<<<<< HEAD
+=======
+	"gorm.io/driver/postgres"
+
+>>>>>>> e23ba821bf04e08f435961387de907eacb67604f
 	"github.com/joho/godotenv"
 
 	"github.com/gorilla/mux"
@@ -33,6 +38,7 @@ type DBConfig struct {
 func (server *Server) Initialize(appConfig AppConfig, dbconfig DBConfig) {
 	fmt.Println("wlcome to gsk_dev " + appConfig.AppName)
 
+<<<<<<< HEAD
 	//var err error
 	//dsn := fmt.Sprintf("host=%s user=%s password=%s dbname=%s port=%s sslmode=disable TimeZone=Asia/Jakarta", dbconfig.DBHost, dbconfig.DBUser, dbconfig.DBPassword, dbconfig.DBName, dbconfig.DBPort)
 	//server.DB, err = gorm.Open(postgres.Open(dsn), &gorm.Config{})
@@ -40,6 +46,15 @@ func (server *Server) Initialize(appConfig AppConfig, dbconfig DBConfig) {
 	//if err != nil {
 	//	panic("failed connect to DB")
 	//}
+=======
+	var err error
+	dsn := fmt.Sprintf("host=%s user=%s password=%s dbname=%s port=%s sslmode=disable TimeZone=Asia/Jakarta", dbconfig.DBHost, dbconfig.DBUser, dbconfig.DBPassword, dbconfig.DBName, dbconfig.DBPort)
+	server.DB, err = gorm.Open(postgres.Open(dsn), &gorm.Config{})
+
+	if err != nil {
+		panic("failed connect to DB")
+	}
+>>>>>>> e23ba821bf04e08f435961387de907eacb67604f
 
 	server.Router = mux.NewRouter()
 	server.initializeRoutes()

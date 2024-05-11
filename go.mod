@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 module github.com/jajang57/gsk_dev
 
 go 1.23
@@ -30,3 +31,6 @@ require (
 	golang.org/x/text v0.14.0 // indirect
 	golang.org/x/time v0.5.0 // indirect
 )
+=======
+module gsk_dev
+>>>>>>> e23ba821bf04e08f435961387de907eacb67604f
