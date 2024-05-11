@@ -1,0 +1,6 @@
+Setup
+
+    1. Build Script Dockerfile -> run : docker build --tag gsk_dev .
+    2. Create Network -> run : docker network create gsk_dev_network
+    3. Run Docker Container Golang -> run : docker run -d --restart unless-stopped -p 9000:9000 --name gsk_dev --network gsk_dev_network gsk_dev
+ docker run -d --restart unless-stopped -p 8080:8080 --name go-docker-simple --network go-docker-simple-network go-docker-simple
